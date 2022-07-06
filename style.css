@@ -63,7 +63,7 @@
   letter-spacing: 2px;
 }
 .donate-content p {
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 40px;
 }
 .flex-container {
@@ -76,22 +76,27 @@
   width: 200px;
   height: 200px;
   background-color: rgb(231, 231, 231);
+  color: rgb(105, 102, 102);
   text-align: center;
   line-height: 200px;
   margin-left: 20px;
   font-size: 35px;
+  font-weight: bold;
   border-radius: 5px;
   padding-top: 10px;
+  margin-bottom: 10px;
 }
 .flexbox-border {
   width: 200px;
   height: 200px;
-  background-color: rgb(255, 216, 216);
+  background-color: rgb(247, 223, 223);
+  color: rgb(218, 69, 94);
   border: 3px solid rgb(218, 69, 94);
   text-align: center;
   line-height: 200px;
   margin-left: 20px;
   font-size: 35px;
+  font-weight: bold;
   border-radius: 5px;
 }
 .placeholder {
@@ -104,15 +109,62 @@
 .btn {
   color: rgb(255, 255, 255);
   background-color: rgb(238, 74, 74);
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding: 10px 25px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 10px 28px;
   border: 2px solid white;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   cursor: pointer;
   transition: 0.5s;
+}
+.donate-plan {
+  text-align: center;
+  margin-top: 20px;
+}
+.donate-content p {
+  margin: 20px 120px;
+}
+.flex-card {
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  background-color: rgb(182, 244, 255);
+  padding: 10px;
+  margin-left: 40px;
+}
+.img1 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.title1 {
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.card1 p {
+  padding-left: 10px;
+}
+.card2 {
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  background-color: rgb(255, 187, 185);
+  padding: 10px;
+  margin-left: 40px;
+}
+.card3 {
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  background-color: rgb(255, 237, 179);
+  padding: 10px;
+  margin-left: 40px;
 }
