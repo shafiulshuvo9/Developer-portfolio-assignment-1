@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.top-header {
+  width: 100%px;
+  height: 850px;
+  background-image: url(images/donation13.jpg);
+  background-color: rgba(8, 8, 8, 0.5);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  color: white;
+  text-transform: uppercase;
+}
+.wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+.wrapper p {
+  font-size: 35px;
+  max-width: 900px;
+  margin: 30px auto;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.wrapper button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 74, 74);
+  margin-top: 28px;
+  margin-left: 29rem;
+  padding: 10px 25px;
+  border: 2px solid white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.wrapper button:hover {
+  background-color: rgb(82, 80, 80);
+  color: rgb(255, 255, 255);
+}
+.donate-container {
+  margin-top: 70px;
+  text-align: center;
+}
+.donate-content h1 {
+  font-size: 55px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
+.donate-content p {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.flex-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.flexbox {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  line-height: 200px;
+  margin-left: 20px;
+  font-size: 35px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.flexbox-border {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 216, 216);
+  border: 3px solid rgb(218, 69, 94);
+  text-align: center;
+  line-height: 200px;
+  margin-left: 20px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+.placeholder {
+  border: none;
+  font-size: 28px;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  border-bottom: 1px solid grey;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 74, 74);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.5s;
+}
